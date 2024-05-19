@@ -1,0 +1,22 @@
+How to Install Typescript
+	1. npm init -> skip all	
+	2. npm i typesript
+	3. tsc --init || npx tsc --init   Type Configuration File
+	
+Complier 
+	tsc || tsc filename.ts
+Run 	
+	node filename.js
+	npm config set strict-ssl false
+
+Setup Angular
+	npm install -g @angular/cli
+	create app without work space
+		ng new hotelinventoryapp --create-application=false (create app without work space)
+		ng g app hotelinventory (create app)
+	create app withworkspace
+		ng new hotelinventory
+
+Generate New Component
+	ng generate component component_name (it's generate inside app folder)
+	ng generate service services/api (create services) 
