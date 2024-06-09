@@ -1,2 +1,8 @@
 <router-outlet />
-<app-rooms />
+<div class="" [ngSwitch]="role">
+  <div class="" *ngSwitchCase="'User'">Welcome User</div>
+  <div class="" *ngSwitchCase="'Admin'">
+    <app-root />
+  </div>
+  <div class="" *ngSwitchDefault="">You Dont Have Access for this page</div>
+</div>
