@@ -29,6 +29,7 @@ export class RoomsComponent implements OnInit {
       photos: 'images/breadcrumbs-bg.jpg',
       checkInTime: new Date('09-Jun-2024'),
       checkOutTime: new Date('09-Jun-2024'),
+      rating: 3.565,
     },
     {
       roomNumber: 2,
@@ -38,6 +39,7 @@ export class RoomsComponent implements OnInit {
       photos: 'images/breadcrumbs-bg.jpg',
       checkInTime: new Date('09-Jun-2024'),
       checkOutTime: new Date('10-Jun-2024'),
+      rating: 4.55,
     },
     {
       roomNumber: 3,
@@ -47,6 +49,7 @@ export class RoomsComponent implements OnInit {
       photos: 'images/breadcrumbs-bg.jpg',
       checkInTime: new Date('09-Jun-2024'),
       checkOutTime: new Date('10-Jun-2024'),
+      rating: 3.878,
     },
   ];
 
